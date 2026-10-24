@@ -1,0 +1,1673 @@
+[
+ {
+  "obsada": 1,
+  "numer": 1,
+  "typ": "shockwave3d",
+  "nazwa": "rycerz_gruby_attack1",
+  "plik": "modele/rycerz_gruby_attack1"
+ },
+ {
+  "obsada": 1,
+  "numer": 14,
+  "typ": "shockwave3d",
+  "nazwa": "moneta_rotate",
+  "plik": "modele/moneta_rotate"
+ },
+ {
+  "obsada": 1,
+  "numer": 19,
+  "typ": "shockwave3d",
+  "nazwa": "marchew",
+  "plik": "modele/marchew"
+ },
+ {
+  "obsada": 1,
+  "numer": 32,
+  "typ": "shockwave3d",
+  "nazwa": "rycerz_gruby",
+  "plik": "modele/rycerz_gruby"
+ },
+ {
+  "obsada": 1,
+  "numer": 33,
+  "typ": "shockwave3d",
+  "nazwa": "kubus",
+  "plik": "modele/kubus"
+ },
+ {
+  "obsada": 1,
+  "numer": 34,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_runjump",
+  "plik": "modele/kubus_runjump"
+ },
+ {
+  "obsada": 1,
+  "numer": 35,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_run",
+  "plik": "modele/kubus_run"
+ },
+ {
+  "obsada": 1,
+  "numer": 36,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_hit",
+  "plik": "modele/kubus_hit"
+ },
+ {
+  "obsada": 1,
+  "numer": 37,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_ambient2",
+  "plik": "modele/kubus_ambient2"
+ },
+ {
+  "obsada": 1,
+  "numer": 38,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_ambient1",
+  "plik": "modele/kubus_ambient1"
+ },
+ {
+  "obsada": 1,
+  "numer": 39,
+  "typ": "shockwave3d",
+  "nazwa": "ziemia",
+  "plik": "modele/ziemia"
+ },
+ {
+  "obsada": 1,
+  "numer": 40,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_proxy",
+  "plik": "modele/kubus_proxy"
+ },
+ {
+  "obsada": 1,
+  "numer": 41,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_take",
+  "plik": "modele/kubus_take"
+ },
+ {
+  "obsada": 1,
+  "numer": 42,
+  "typ": "shockwave3d",
+  "nazwa": "rycerz_gruby_ambient1",
+  "plik": "modele/rycerz_gruby_ambient1"
+ },
+ {
+  "obsada": 1,
+  "numer": 43,
+  "typ": "shockwave3d",
+  "nazwa": "rycerz_gruby_walk",
+  "plik": "modele/rycerz_gruby_walk"
+ },
+ {
+  "obsada": 1,
+  "numer": 44,
+  "typ": "shockwave3d",
+  "nazwa": "jezdziec",
+  "plik": "modele/jezdziec"
+ },
+ {
+  "obsada": 1,
+  "numer": 45,
+  "typ": "shockwave3d",
+  "nazwa": "jezdziec_ambient1",
+  "plik": "modele/jezdziec_ambient1"
+ },
+ {
+  "obsada": 1,
+  "numer": 46,
+  "typ": "shockwave3d",
+  "nazwa": "jezdziec_ambient2",
+  "plik": "modele/jezdziec_ambient2"
+ },
+ {
+  "obsada": 1,
+  "numer": 47,
+  "typ": "shockwave3d",
+  "nazwa": "jezdziec_canter",
+  "plik": "modele/jezdziec_canter"
+ },
+ {
+  "obsada": 1,
+  "numer": 52,
+  "typ": "shockwave3d",
+  "nazwa": "kon_",
+  "plik": "modele/kon_"
+ },
+ {
+  "obsada": 1,
+  "numer": 53,
+  "typ": "shockwave3d",
+  "nazwa": "kowal",
+  "plik": "modele/kowal"
+ },
+ {
+  "obsada": 1,
+  "numer": 56,
+  "typ": "shockwave3d",
+  "nazwa": "kowal_ambient1",
+  "plik": "modele/kowal_ambient1"
+ },
+ {
+  "obsada": 1,
+  "numer": 57,
+  "typ": "shockwave3d",
+  "nazwa": "rycerz_gruby_proxy",
+  "plik": "modele/rycerz_gruby_proxy"
+ },
+ {
+  "obsada": 1,
+  "numer": 58,
+  "typ": "shockwave3d",
+  "nazwa": "jezdziec_proxy",
+  "plik": "modele/jezdziec_proxy"
+ },
+ {
+  "obsada": 1,
+  "numer": 61,
+  "typ": "shockwave3d",
+  "nazwa": "kon_ambient1",
+  "plik": "modele/kon_ambient1"
+ },
+ {
+  "obsada": 1,
+  "numer": 62,
+  "typ": "shockwave3d",
+  "nazwa": "kowal_cutscene",
+  "plik": "modele/kowal_cutscene"
+ },
+ {
+  "obsada": 1,
+  "numer": 63,
+  "typ": "shockwave3d",
+  "nazwa": "kowal_talk1",
+  "plik": "modele/kowal_talk1"
+ },
+ {
+  "obsada": 1,
+  "numer": 64,
+  "typ": "shockwave3d",
+  "nazwa": "kowal_proxy",
+  "plik": "modele/kowal_proxy"
+ },
+ {
+  "obsada": 1,
+  "numer": 66,
+  "typ": "shockwave3d",
+  "nazwa": "kon_canter",
+  "plik": "modele/kon_canter"
+ },
+ {
+  "obsada": 1,
+  "numer": 67,
+  "typ": "shockwave3d",
+  "nazwa": "kon_ambient2",
+  "plik": "modele/kon_ambient2"
+ },
+ {
+  "obsada": 1,
+  "numer": 70,
+  "typ": "shockwave3d",
+  "nazwa": "narzedzie1",
+  "plik": "modele/narzedzie1"
+ },
+ {
+  "obsada": 1,
+  "numer": 71,
+  "typ": "shockwave3d",
+  "nazwa": "narzedzie2",
+  "plik": "modele/narzedzie2"
+ },
+ {
+  "obsada": 1,
+  "numer": 73,
+  "typ": "shockwave3d",
+  "nazwa": "dzwignia wygieta_anim",
+  "plik": "modele/dzwignia wygieta_anim"
+ },
+ {
+  "obsada": 1,
+  "numer": 74,
+  "typ": "shockwave3d",
+  "nazwa": "zebatka1",
+  "plik": "modele/zebatka1"
+ },
+ {
+  "obsada": 1,
+  "numer": 75,
+  "typ": "shockwave3d",
+  "nazwa": "zebatka2",
+  "plik": "modele/zebatka2"
+ },
+ {
+  "obsada": 2,
+  "numer": 1,
+  "typ": "sound",
+  "nazwa": "sound_get_carrot",
+  "plik": "dzwieki/sound_get_carrot.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 10,
+  "typ": "sound",
+  "nazwa": "sound_kubus_kroki",
+  "plik": "dzwieki/sound_kubus_kroki.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 11,
+  "typ": "sound",
+  "nazwa": "sound_get_coin",
+  "plik": "dzwieki/sound_get_coin.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 12,
+  "typ": "sound",
+  "nazwa": "sound_close_gate_truss",
+  "plik": "dzwieki/sound_close_gate_truss.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 13,
+  "typ": "sound",
+  "nazwa": "sound_kubus_skok",
+  "plik": "dzwieki/sound_kubus_skok.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 14,
+  "typ": "sound",
+  "nazwa": "sound_handle_switch",
+  "plik": "dzwieki/sound_handle_switch.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 15,
+  "typ": "sound",
+  "nazwa": "muzyka",
+  "plik": "dzwieki/muzyka.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 16,
+  "typ": "sound",
+  "nazwa": "sound_horse_canter",
+  "plik": "dzwieki/sound_horse_canter.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 17,
+  "typ": "sound",
+  "nazwa": "sound_insert_rack",
+  "plik": "dzwieki/sound_insert_rack.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 18,
+  "typ": "sound",
+  "nazwa": "sound_open_gate",
+  "plik": "dzwieki/sound_open_gate.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 19,
+  "typ": "sound",
+  "nazwa": "sound_open_gate_truss",
+  "plik": "dzwieki/sound_open_gate_truss.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 20,
+  "typ": "sound",
+  "nazwa": "sound_open_trunk",
+  "plik": "dzwieki/sound_open_trunk.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 23,
+  "typ": "sound",
+  "nazwa": "sound_smith_talk",
+  "plik": "dzwieki/sound_smith_talk.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 24,
+  "typ": "sound",
+  "nazwa": "sound_gruby_atak",
+  "plik": "dzwieki/sound_gruby_atak.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 25,
+  "typ": "sound",
+  "nazwa": "sound_gruby_ambient",
+  "plik": "dzwieki/sound_gruby_ambient.mp3"
+ },
+ {
+  "obsada": 2,
+  "numer": 26,
+  "typ": "sound",
+  "nazwa": "sound_smith_repair",
+  "plik": "dzwieki/sound_smith_repair.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 1,
+  "typ": "bitmap",
+  "nazwa": "0",
+  "plik": "bitmapy/0.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 2,
+  "typ": "bitmap",
+  "nazwa": "5",
+  "plik": "bitmapy/5.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 3,
+  "typ": "bitmap",
+  "nazwa": "10",
+  "plik": "bitmapy/10.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 4,
+  "typ": "bitmap",
+  "nazwa": "15",
+  "plik": "bitmapy/15.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 5,
+  "typ": "bitmap",
+  "nazwa": "20",
+  "plik": "bitmapy/20.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 6,
+  "typ": "bitmap",
+  "nazwa": "25",
+  "plik": "bitmapy/25.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 7,
+  "typ": "bitmap",
+  "nazwa": "30",
+  "plik": "bitmapy/30.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 8,
+  "typ": "bitmap",
+  "nazwa": "35",
+  "plik": "bitmapy/35.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 9,
+  "typ": "bitmap",
+  "nazwa": "40",
+  "plik": "bitmapy/40.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 10,
+  "typ": "bitmap",
+  "nazwa": "45",
+  "plik": "bitmapy/45.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 11,
+  "typ": "bitmap",
+  "nazwa": "50",
+  "plik": "bitmapy/50.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 12,
+  "typ": "bitmap",
+  "nazwa": "55",
+  "plik": "bitmapy/55.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 13,
+  "typ": "bitmap",
+  "nazwa": "60",
+  "plik": "bitmapy/60.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 14,
+  "typ": "bitmap",
+  "nazwa": "65",
+  "plik": "bitmapy/65.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 15,
+  "typ": "bitmap",
+  "nazwa": "70",
+  "plik": "bitmapy/70.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 16,
+  "typ": "bitmap",
+  "nazwa": "75",
+  "plik": "bitmapy/75.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 17,
+  "typ": "bitmap",
+  "nazwa": "80",
+  "plik": "bitmapy/80.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 18,
+  "typ": "bitmap",
+  "nazwa": "85",
+  "plik": "bitmapy/85.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 19,
+  "typ": "bitmap",
+  "nazwa": "90",
+  "plik": "bitmapy/90.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 20,
+  "typ": "bitmap",
+  "nazwa": "95",
+  "plik": "bitmapy/95.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 21,
+  "typ": "bitmap",
+  "nazwa": "100",
+  "plik": "bitmapy/100.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 22,
+  "typ": "bitmap",
+  "nazwa": "L0",
+  "plik": "bitmapy/L0.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 23,
+  "typ": "bitmap",
+  "nazwa": "L1",
+  "plik": "bitmapy/L1.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 24,
+  "typ": "bitmap",
+  "nazwa": "L2",
+  "plik": "bitmapy/L2.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 25,
+  "typ": "bitmap",
+  "nazwa": "L3",
+  "plik": "bitmapy/L3.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 26,
+  "typ": "bitmap",
+  "nazwa": "L4",
+  "plik": "bitmapy/L4.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 27,
+  "typ": "bitmap",
+  "nazwa": "L5",
+  "plik": "bitmapy/L5.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 28,
+  "typ": "bitmap",
+  "nazwa": "L6",
+  "plik": "bitmapy/L6.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 29,
+  "typ": "bitmap",
+  "nazwa": "L7",
+  "plik": "bitmapy/L7.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 30,
+  "typ": "bitmap",
+  "nazwa": "L8",
+  "plik": "bitmapy/L8.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 31,
+  "typ": "bitmap",
+  "nazwa": "L9",
+  "plik": "bitmapy/L9.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 32,
+  "typ": "bitmap",
+  "nazwa": "P0",
+  "plik": "bitmapy/P0.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 33,
+  "typ": "bitmap",
+  "nazwa": "P1",
+  "plik": "bitmapy/P1.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 34,
+  "typ": "bitmap",
+  "nazwa": "P2",
+  "plik": "bitmapy/P2.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 35,
+  "typ": "bitmap",
+  "nazwa": "P3",
+  "plik": "bitmapy/P3.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 36,
+  "typ": "bitmap",
+  "nazwa": "P4",
+  "plik": "bitmapy/P4.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 37,
+  "typ": "bitmap",
+  "nazwa": "P5",
+  "plik": "bitmapy/P5.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 38,
+  "typ": "bitmap",
+  "nazwa": "P6",
+  "plik": "bitmapy/P6.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 39,
+  "typ": "bitmap",
+  "nazwa": "P7",
+  "plik": "bitmapy/P7.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 40,
+  "typ": "bitmap",
+  "nazwa": "P8",
+  "plik": "bitmapy/P8.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 41,
+  "typ": "bitmap",
+  "nazwa": "P9",
+  "plik": "bitmapy/P9.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 42,
+  "typ": "bitmap",
+  "nazwa": "moneta",
+  "plik": "bitmapy/moneta.png",
+  "rozmiar": [
+   64,
+   64
+  ],
+  "rejestracja": [
+   32,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 43,
+  "typ": "flash",
+  "nazwa": "bt_gramjeszczeraz"
+ },
+ {
+  "obsada": 3,
+  "numer": 44,
+  "typ": "flash",
+  "nazwa": "e_koniecgry1"
+ },
+ {
+  "obsada": 3,
+  "numer": 45,
+  "typ": "bitmap",
+  "nazwa": "zycie1",
+  "plik": "bitmapy/zycie1.png",
+  "rozmiar": [
+   256,
+   64
+  ],
+  "rejestracja": [
+   128,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 46,
+  "typ": "bitmap",
+  "nazwa": "zycie2",
+  "plik": "bitmapy/zycie2.png",
+  "rozmiar": [
+   256,
+   64
+  ],
+  "rejestracja": [
+   128,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 47,
+  "typ": "bitmap",
+  "nazwa": "zycie3",
+  "plik": "bitmapy/zycie3.png",
+  "rozmiar": [
+   256,
+   64
+  ],
+  "rejestracja": [
+   128,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 48,
+  "typ": "flash",
+  "nazwa": "bt_zakoncz"
+ },
+ {
+  "obsada": 3,
+  "numer": 49,
+  "typ": "flash",
+  "nazwa": "e_ekran esc02"
+ },
+ {
+  "obsada": 3,
+  "numer": 50,
+  "typ": "flash",
+  "nazwa": "bt_gramdalej"
+ },
+ {
+  "obsada": 3,
+  "numer": 51,
+  "typ": "bitmap",
+  "nazwa": "k_10_duzy_dziedziniec",
+  "plik": "bitmapy/k_10_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 52,
+  "typ": "flash",
+  "nazwa": "ladowanie_gry"
+ },
+ {
+  "obsada": 3,
+  "numer": 53,
+  "typ": "bitmap",
+  "nazwa": "k_11_duzy_dziedziniec",
+  "plik": "bitmapy/k_11_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 54,
+  "typ": "bitmap",
+  "nazwa": "k_12_duzy_dziedziniec",
+  "plik": "bitmapy/k_12_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 55,
+  "typ": "bitmap",
+  "nazwa": "k_13_duzy_dziedziniec",
+  "plik": "bitmapy/k_13_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 56,
+  "typ": "bitmap",
+  "nazwa": "k_14_duzy_dziedziniec",
+  "plik": "bitmapy/k_14_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 57,
+  "typ": "bitmap",
+  "nazwa": "k_15_duzy_dziedziniec",
+  "plik": "bitmapy/k_15_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 58,
+  "typ": "flash",
+  "nazwa": "e_kolejnyetap"
+ },
+ {
+  "obsada": 3,
+  "numer": 59,
+  "typ": "bitmap",
+  "nazwa": "k_16_duzy_dziedziniec",
+  "plik": "bitmapy/k_16_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 60,
+  "typ": "bitmap",
+  "nazwa": "k_12a_duzy_dziedziniec",
+  "plik": "bitmapy/k_12a_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 61,
+  "typ": "bitmap",
+  "nazwa": "k_10a_duzy_dziedziniec",
+  "plik": "bitmapy/k_10a_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 62,
+  "typ": "bitmap",
+  "nazwa": "k_10b_duzy_dziedziniec",
+  "plik": "bitmapy/k_10b_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 63,
+  "typ": "bitmap",
+  "nazwa": "k_01_duzy_dziedziniec",
+  "plik": "bitmapy/k_01_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 67,
+  "typ": "bitmap",
+  "nazwa": "dzwigniakrzywa",
+  "plik": "bitmapy/dzwigniakrzywa.png",
+  "rozmiar": [
+   64,
+   64
+  ],
+  "rejestracja": [
+   32,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 68,
+  "typ": "bitmap",
+  "nazwa": "k_02_duzy_dziedziniec",
+  "plik": "bitmapy/k_02_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 69,
+  "typ": "bitmap",
+  "nazwa": "k_03_duzy_dziedziniec",
+  "plik": "bitmapy/k_03_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 70,
+  "typ": "bitmap",
+  "nazwa": "k_04_duzy_dziedziniec",
+  "plik": "bitmapy/k_04_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   64
+  ],
+  "rejestracja": [
+   256,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 71,
+  "typ": "bitmap",
+  "nazwa": "k_05_duzy_dziedziniec",
+  "plik": "bitmapy/k_05_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   64
+  ],
+  "rejestracja": [
+   256,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 72,
+  "typ": "bitmap",
+  "nazwa": "k_06_duzy_dziedziniec",
+  "plik": "bitmapy/k_06_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 73,
+  "typ": "bitmap",
+  "nazwa": "k_07_duzy_dziedziniec",
+  "plik": "bitmapy/k_07_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   64
+  ],
+  "rejestracja": [
+   256,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 74,
+  "typ": "bitmap",
+  "nazwa": "k_08_duzy_dziedziniec",
+  "plik": "bitmapy/k_08_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 75,
+  "typ": "bitmap",
+  "nazwa": "k_09_duzy_dziedziniec",
+  "plik": "bitmapy/k_09_duzy_dziedziniec.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 76,
+  "typ": "bitmap",
+  "nazwa": "dzwigniaprosta",
+  "plik": "bitmapy/dzwigniaprosta.png",
+  "rozmiar": [
+   64,
+   64
+  ],
+  "rejestracja": [
+   32,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 77,
+  "typ": "bitmap",
+  "nazwa": "zebatka_1",
+  "plik": "bitmapy/zebatka_1.png",
+  "rozmiar": [
+   64,
+   64
+  ],
+  "rejestracja": [
+   32,
+   32
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 78,
+  "typ": "bitmap",
+  "nazwa": "zebatka_2",
+  "plik": "bitmapy/zebatka_2.png",
+  "rozmiar": [
+   64,
+   64
+  ],
+  "rejestracja": [
+   32,
+   32
+  ]
+ },
+ {
+  "obsada": 4,
+  "numer": 1,
+  "typ": "script",
+  "nazwa": "preload"
+ },
+ {
+  "obsada": 4,
+  "numer": 2,
+  "typ": "script",
+  "nazwa": "looper_navigate"
+ },
+ {
+  "obsada": 4,
+  "numer": 3,
+  "typ": "script",
+  "nazwa": "loop_exit"
+ },
+ {
+  "obsada": 4,
+  "numer": 4,
+  "typ": "script",
+  "nazwa": "inicjalizacja_filmu"
+ },
+ {
+  "obsada": 4,
+  "numer": 6,
+  "typ": "script",
+  "nazwa": "behavior_ges"
+ },
+ {
+  "obsada": 4,
+  "numer": 7,
+  "typ": "script",
+  "nazwa": "inicjalizacja_kamer"
+ },
+ {
+  "obsada": 4,
+  "numer": 15,
+  "typ": "script",
+  "nazwa": "Rollover Member Change"
+ },
+ {
+  "obsada": 4,
+  "numer": 23,
+  "typ": "script",
+  "nazwa": "Rollover Cursor Change"
+ },
+ {
+  "obsada": 4,
+  "numer": 26,
+  "typ": "script",
+  "nazwa": "exit_confirmed"
+ },
+ {
+  "obsada": 4,
+  "numer": 27,
+  "typ": "script",
+  "nazwa": "back_confirmed"
+ },
+ {
+  "obsada": 4,
+  "numer": 44,
+  "typ": "script",
+  "nazwa": "initialize_object"
+ },
+ {
+  "obsada": 4,
+  "numer": 45,
+  "typ": "script",
+  "nazwa": "initialize_double_object"
+ },
+ {
+  "obsada": 4,
+  "numer": 48,
+  "typ": "script",
+  "nazwa": "frame_one"
+ },
+ {
+  "obsada": 4,
+  "numer": 50,
+  "typ": "script",
+  "nazwa": "play_again"
+ },
+ {
+  "obsada": 4,
+  "numer": 53,
+  "typ": "script",
+  "nazwa": "behavior_kubus"
+ },
+ {
+  "obsada": 4,
+  "numer": 54,
+  "typ": "script",
+  "nazwa": "init_animations"
+ },
+ {
+  "obsada": 4,
+  "numer": 55,
+  "typ": "script",
+  "nazwa": "f53_fpscounter"
+ },
+ {
+  "obsada": 4,
+  "numer": 60,
+  "typ": "script",
+  "nazwa": "add_coins"
+ },
+ {
+  "obsada": 4,
+  "numer": 61,
+  "typ": "script",
+  "nazwa": "add_gooses"
+ },
+ {
+  "obsada": 4,
+  "numer": 62,
+  "typ": "script",
+  "nazwa": "add_little_knigths"
+ },
+ {
+  "obsada": 4,
+  "numer": 63,
+  "typ": "script",
+  "nazwa": "add_black_knights"
+ },
+ {
+  "obsada": 4,
+  "numer": 64,
+  "typ": "script",
+  "nazwa": "add_horses"
+ },
+ {
+  "obsada": 4,
+  "numer": 65,
+  "typ": "script",
+  "nazwa": "add_fat_knigths"
+ },
+ {
+  "obsada": 4,
+  "numer": 69,
+  "typ": "script",
+  "nazwa": "behavior_rycerz_czarny"
+ },
+ {
+  "obsada": 4,
+  "numer": 70,
+  "typ": "script",
+  "nazwa": "behavior_maly_rycerz"
+ },
+ {
+  "obsada": 4,
+  "numer": 71,
+  "typ": "script",
+  "nazwa": "behavior_czarodziej"
+ },
+ {
+  "obsada": 4,
+  "numer": 72,
+  "typ": "script",
+  "nazwa": "behavior_kon_rycerz"
+ },
+ {
+  "obsada": 4,
+  "numer": 73,
+  "typ": "script",
+  "nazwa": "behavior_rycerz_gruby"
+ },
+ {
+  "obsada": 4,
+  "numer": 74,
+  "typ": "script",
+  "nazwa": "behavior_kowal"
+ },
+ {
+  "obsada": 4,
+  "numer": 75,
+  "typ": "script",
+  "nazwa": "nastepnyEtap"
+ },
+ {
+  "obsada": 4,
+  "numer": 78,
+  "typ": "script",
+  "nazwa": "behavior_tratwa"
+ },
+ {
+  "obsada": 4,
+  "numer": 79,
+  "typ": "script",
+  "nazwa": "add_barrels"
+ },
+ {
+  "obsada": 4,
+  "numer": 80,
+  "typ": "script",
+  "nazwa": "add_source"
+ },
+ {
+  "obsada": 4,
+  "numer": 81,
+  "typ": "script",
+  "nazwa": "behavior_komunikaty"
+ },
+ {
+  "obsada": 4,
+  "numer": 87,
+  "typ": "script",
+  "nazwa": "add_carrots"
+ },
+ {
+  "obsada": 4,
+  "numer": 88,
+  "typ": "script",
+  "nazwa": "change_coins"
+ },
+ {
+  "obsada": 4,
+  "numer": 89,
+  "typ": "script",
+  "nazwa": "ambient_sounds"
+ },
+ {
+  "obsada": 4,
+  "numer": 90,
+  "typ": "script",
+  "nazwa": "change_message"
+ },
+ {
+  "obsada": 4,
+  "numer": 91,
+  "typ": "script",
+  "nazwa": "change_energy"
+ },
+ {
+  "obsada": 4,
+  "numer": 92,
+  "typ": "script",
+  "nazwa": "add_magic"
+ },
+ {
+  "obsada": 4,
+  "numer": 93,
+  "typ": "script",
+  "nazwa": "add_smith"
+ },
+ {
+  "obsada": 4,
+  "numer": 94,
+  "typ": "script",
+  "nazwa": "change_lives"
+ }
+]

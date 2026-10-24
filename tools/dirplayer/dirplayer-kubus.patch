@@ -1,0 +1,72 @@
+diff --git a/polyfill/src/standalone.tsx b/polyfill/src/standalone.tsx
+index 87c1d44..0b10d7d 100644
+--- a/polyfill/src/standalone.tsx
++++ b/polyfill/src/standalone.tsx
+@@ -141,6 +141,10 @@ function init() {
+     console.log('[DirPlayer] data-disable-flash set — skipping Ruffle. Lingo Flash calls will no-op.');
+   }
+ 
++  if (polyfillScript?.hasAttribute('data-fit-stage')) {
++    (window as any).__dirplayerFitStage = true;
++  }
++
+   const requireClick = polyfillScript?.hasAttribute('data-require-click') ?? false;
+   const config = {
+     wasmUrl: getEmbeddedWasmUrl(),
+diff --git a/src/views/Stage/index.tsx b/src/views/Stage/index.tsx
+index d426dc5..6bad62d 100644
+--- a/src/views/Stage/index.tsx
++++ b/src/views/Stage/index.tsx
+@@ -306,6 +306,14 @@ export default function Stage({ showControls, enableGestures }: { showControls?:
+     if (!outerWidth || !outerHeight) return;
+     if (!userHasPannedRef.current) {
+       if (stageWidth && stageHeight) {
++        // Polyfill `data-fit-stage`: scale the stage to fit its container
++        // (e.g. a responsive 4:3 box or fullscreen) until the user zooms.
++        if ((window as any).__dirplayerFitStage) {
++          const fit = Math.max(MIN_SCALE, Math.min(MAX_SCALE, outerWidth / stageWidth, outerHeight / stageHeight));
++          scaleRef.current = fit;
++          effectiveScaleRef.current = getEffectiveScale(fit);
++          setScale(fit);
++        }
+         const es = getEffectiveScale(scaleRef.current);
+         setPan({
+           x: (outerWidth - stageWidth * es) / 2,
+diff --git a/vm-rust/src/director/chunks/w3d/clod_decoder.rs b/vm-rust/src/director/chunks/w3d/clod_decoder.rs
+index eccadab..3e7d3ba 100644
+--- a/vm-rust/src/director/chunks/w3d/clod_decoder.rs
++++ b/vm-rust/src/director/chunks/w3d/clod_decoder.rs
+@@ -508,8 +508,11 @@ impl ClodMeshDecoder {
+                 for n in 0..bone_count {
+                     indices.push(bs.read_compressed_u32(19));
+                     if n > 0 {
++                        // Weights are 14-bit fixed point (0..16383 = 0..1), not
++                        // quantized with the diffuse color factor: with that factor almost
++                        // every weight clipped to 1 and the first one went negative.
+                         let weight_mag = bs.read_compressed_u32(20);
+-                        let w = (weight_mag as f32 * self.diffuse_color_iq).clamp(0.0, 1.0);
++                        let w = (weight_mag as f32 / 16384.0).clamp(0.0, 1.0);
+                         weights.push(w);
+                         weights[0] -= w;
+                     }
+diff --git a/vm-rust/src/director/chunks/w3d/parser.rs b/vm-rust/src/director/chunks/w3d/parser.rs
+index 1aaca68..f221cd4 100644
+--- a/vm-rust/src/director/chunks/w3d/parser.rs
++++ b/vm-rust/src/director/chunks/w3d/parser.rs
+@@ -896,6 +896,16 @@ impl W3dFileParser {
+             let qy = r.read_f32()?;
+             let qz = r.read_f32()?;
+             let bone_attrs = r.read_u32()?;
++            // Rotation constraints: for each axis that is both "active"
++            // (0x2/0x4/0x8 = X/Y/Z) and "limited" (0x10/0x20/0x40), a
++            // min/max F32 pair follows. Skipping it keeps the next bone
++            // aligned (3ds Max character-studio rigs with joint limits).
++            for axis in 0..3 {
++                if bone_attrs & (0x2 << axis) != 0 && bone_attrs & (0x10 << axis) != 0 {
++                    r.read_f32()?;
++                    r.read_f32()?;
++                }
++            }
+ 
+             skeleton.bones.push(W3dBone {
+                 name: bone_name,

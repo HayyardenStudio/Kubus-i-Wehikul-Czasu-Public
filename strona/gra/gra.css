@@ -1,0 +1,197 @@
+/* Gra w przeglądarce (three.js). Wspólne style: ../styl.css. */
+
+.gra-sekcja { padding-top: 28px; }
+
+.wybor-poziomu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  max-width: 960px;
+  margin: 24px auto 0;
+}
+
+.wybor-poziomu-pole { display: flex; align-items: center; flex-wrap: wrap; gap: 8px 12px; max-width: 100%; }
+.wybor-poziomu-pole > label { font-weight: 700; }
+
+.wybor-poziomu select {
+  max-width: 100%;
+  padding: 10px 38px 10px 14px;
+  border: 1px solid #6b9e43;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 600;
+  color: #23351c;
+  background: linear-gradient(180deg, #b8e276, #90c85e);
+  cursor: pointer;
+}
+
+.wybor-poziomu select option { background: var(--karta); color: var(--tekst); }
+.wybor-poziomu select:focus-visible { outline: 3px solid var(--zielony-ciemny); outline-offset: 3px; }
+.wybor-poziomu select:disabled { cursor: default; opacity: 0.65; }
+.pokaz-poziomy { display: flex; align-items: center; gap: 8px; font-size: 15px; cursor: pointer; }
+.pokaz-poziomy input { width: 18px; height: 18px; margin: 0; accent-color: var(--zielony); }
+
+.ekran {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  aspect-ratio: 4 / 3;
+  margin: 20px auto 0;
+  background: #000;
+  border-radius: var(--promien);
+  overflow: hidden;
+  box-shadow: var(--cien);
+}
+
+.ekran:fullscreen {
+  max-width: none;
+  border-radius: 0;
+}
+
+.ekran-start {
+  position: absolute;
+  inset: 0;
+}
+
+.ekran [hidden],
+.pod-ekranem [hidden] { display: none; }
+
+.ekran-start img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.55);
+}
+
+.ekran-start-tresc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 16px;
+}
+
+.ekran-start-tresc {
+  position: absolute;
+  inset: 0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.ekran-start-tresc .przycisk.glowny {
+  font-size: 26px;
+  padding: 14px 40px;
+  cursor: pointer;
+}
+
+.ekran .przycisk { cursor: pointer; font: inherit; font-weight: 700; }
+
+.pod-ekranem {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 12px auto 0;
+}
+
+.pod-ekranem .przycisk { cursor: pointer; font: inherit; font-weight: 700; padding: 8px 18px; }
+
+.pod-ekranem .drobne { margin: 0; flex: 1; min-width: 240px; }
+
+.plansza,
+.ekran-nakladka {
+  position: absolute;
+  inset: 0;
+}
+
+.plansza { outline: none; }
+
+/* Cały obraz (3D, HUD i menu) zachowuje proporcje 4:3 również na pełnym ekranie. */
+.ekran:fullscreen {
+  width: 100vw;
+  height: 100vh;
+  aspect-ratio: auto;
+  margin: 0;
+}
+
+.ekran:fullscreen > .plansza,
+.ekran:fullscreen > .ekran-start,
+.ekran:fullscreen > .ekran-nakladka {
+  width: min(100vw, calc(100vh * 4 / 3));
+  height: min(100vh, calc(100vw * 3 / 4));
+  margin: auto;
+}
+
+.glosnosc {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+}
+
+.glosnosc input { width: 120px; accent-color: var(--zielony); cursor: pointer; }
+.glosnosc output { min-width: 4ch; text-align: right; font-variant-numeric: tabular-nums; }
+
+/* obraz 3D i nakładki 640x480 skalowane razem do ramki */
+.plansza canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.gra-hud { image-rendering: auto; pointer-events: none; }
+
+.ladowanie {
+  width: min(320px, 70%);
+  height: 8px;
+  margin-top: 14px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.3);
+  overflow: hidden;
+}
+
+.ladowanie > div {
+  width: 0;
+  height: 100%;
+  background: var(--pomaranczowy);
+  transition: width 0.2s;
+}
+
+.ekran-nakladka {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+  background: rgba(20, 45, 10, 0.82);
+}
+
+.ekran-nakladka h2 { color: #fff; }
+.ekran-nakladka a { color: #ffd27a; }
+.ekran-nakladka .przyciski { justify-content: center; }
+
+#koniec[data-wynik="wygrana"] .przegrana,
+#koniec[data-wynik="przegrana"] .wygrana { display: none; }
+
+#koniec:not([data-final="true"]) .final-gry,
+#koniec[data-final="true"] > h2,
+#koniec[data-final="true"] > p,
+#koniec[data-final="true"] .pobierz-wersje { display: none; }
+
+#koniec[data-final="true"] { padding: 0; background: #152a4d; }
+.plansza-finalu { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+#koniec[data-final="true"] .przyciski { position: absolute; bottom: 3%; width: 96%; gap: 8px; }
+#koniec[data-final="true"] .przycisk {
+  padding: 7px 12px;
+  font-size: clamp(10px, 2.2vw, 18px);
+  color: #fff;
+  border: 2px solid #ffd25c;
+  background: #16375f;
+}

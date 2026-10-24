@@ -1,0 +1,18 @@
+KUBUŚ I WEHIKUŁ CZASU – EDYCJA FANOWSKA
+
+To nieoficjalne, niekomercyjne wydanie dawnej polskiej gry „Kubuś i Wehikuł Czasu”, przygotowane przez fanów, żeby gra nie zniknęła i dała się uruchomić na współczesnym Windowsie.
+
+• Gra nie jest już sprzedawana ani rozwijana, a strona kubus.pl, z której pobierało się kolejne poziomy, nie działa.
+• Prawa do gry, postaci i znaków należą do ich właścicieli (na okładce: © MGD Sp. z o.o., projekt i wykonanie VERUM.COM). Ten projekt nie jest z nimi związany ani przez nich wspierany.
+• Wydanie jest darmowe. Nie wolno go sprzedawać.
+• Jeśli jesteś właścicielem praw i chcesz, żeby to wydanie zostało usunięte, napisz na stronie projektu – zostanie usunięte.
+
+Co zostało zmienione: pliki gry są poprawione wyłącznie w zakresie potrzebnym do uruchomienia na współczesnych komputerach (tempo gry, rozdzielczość, przejścia między poziomami i zapis postępów, dwa błędy z oryginału). Grafika, dźwięk i treść gry są oryginalne.
+
+Dołączone programy innych autorów:
+• Flashpoint Shockwave Projector Redirector (SPR), Anthony Kleine – licencja MIT (dane\SPR_LICENSE.txt).
+• Adobe Shockwave Player 12.3 – oficjalny, niezmieniony instalator firmy Adobe (dane\sw_lic_full_installer.msi), na warunkach licencji Adobe.
+
+Oprogramowanie jest dostarczane „tak jak jest”, bez żadnej gwarancji.
+
+Strona projektu: https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska

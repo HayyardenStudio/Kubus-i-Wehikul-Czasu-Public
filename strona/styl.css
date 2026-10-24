@@ -1,0 +1,400 @@
+:root {
+  --zielony: #6db33f;
+  --zielony-ciemny: #3f7d1c;
+  --zielony-jasny: #eaf5df;
+  --pomaranczowy: #f29111;
+  --pomaranczowy-ciemny: #c96f00;
+  --czerwony: #d7261e;
+  --tekst: #1f2a17;
+  --tekst-slaby: #5a6650;
+  --tlo: #fbfdf8;
+  --karta: #ffffff;
+  --ramka: #d8e6cb;
+  --cien: 0 2px 10px rgba(40, 70, 20, 0.12);
+  --promien: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --zielony-ciemny: #9bd46f;
+    --zielony-jasny: #223018;
+    --tekst: #e6eedf;
+    --tekst-slaby: #a8b59c;
+    --tlo: #141a10;
+    --karta: #1c2416;
+    --ramka: #34442a;
+    --cien: 0 2px 10px rgba(0, 0, 0, 0.4);
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--tekst);
+  background: var(--tlo);
+}
+
+img { max-width: 100%; height: auto; display: block; }
+
+a { color: var(--zielony-ciemny); }
+a:hover { color: var(--pomaranczowy-ciemny); }
+
+/* Nagłówek */
+
+.naglowek {
+  background: #7dbd45;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: var(--cien);
+}
+
+.baner {
+  /* kolory jak na górze i na dole obrazka banera, żeby nie było widać jego krawędzi */
+  background: linear-gradient(180deg, #b8e276, #90c85e);
+  height: 76px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-left: max(0px, calc((100% - 1100px) / 2 - 16px));
+  overflow: hidden;
+}
+
+.baner > a { height: 100%; flex-shrink: 0; }
+
+.baner img {
+  height: 100%;
+  width: auto;
+  max-width: none;
+  flex-shrink: 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 4%, #000 90%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 4%, #000 90%, transparent);
+}
+
+.baner-edycja {
+  color: #fff4d0;
+  font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1.1;
+  text-shadow: -1px -1px 0 #3d681e, 1px -1px 0 #3d681e,
+    -1px 1px 0 #3d681e, 1px 2px 0 #3d681e;
+}
+
+.menu {
+  display: flex;
+  gap: 4px 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 6px 16px;
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.menu a:hover { text-decoration: underline; color: #fff; }
+
+/* Treść */
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+section {
+  padding: 40px 0 8px;
+  scroll-margin-top: 120px;
+}
+
+h1, h2, h3 { line-height: 1.25; }
+
+h1 {
+  font-size: clamp(28px, 5vw, 42px);
+  margin: 0 0 16px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0 0 16px;
+  color: var(--zielony-ciemny);
+}
+
+h3 { font-size: 20px; margin: 0 0 8px; }
+
+.podtytul { margin-top: 32px; }
+
+.drobne { font-size: 14px; color: var(--tekst-slaby); }
+
+.etykieta {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 3px 12px;
+  border-radius: 999px;
+  background: var(--zielony-jasny);
+  color: var(--zielony-ciemny);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Hero */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 32px;
+  align-items: center;
+  padding-top: 32px;
+}
+
+.hero-obraz { margin: 0; }
+
+.hero-obraz img {
+  border-radius: var(--promien);
+  box-shadow: var(--cien);
+  transform: rotate(1.5deg);
+  border: 6px solid #fff;
+}
+
+/* Przyciski */
+
+.przyciski { display: flex; gap: 12px; flex-wrap: wrap; margin: 20px 0 4px; }
+
+.przycisk {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;
+  font-weight: 700;
+  text-decoration: none;
+  border: 2px solid var(--zielony);
+  color: var(--zielony-ciemny);
+  background: var(--karta);
+}
+
+.przycisk:hover { background: var(--zielony-jasny); color: var(--zielony-ciemny); }
+
+.przycisk.glowny {
+  background: linear-gradient(180deg, #ffad3b, var(--pomaranczowy));
+  border-color: var(--pomaranczowy-ciemny);
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 0 var(--pomaranczowy-ciemny);
+  font-size: 18px;
+}
+
+.przycisk.glowny:hover { filter: brightness(1.06); color: #fff; }
+
+/* Światy */
+
+.swiaty {
+  border-top: 1px solid var(--ramka);
+}
+
+.swiat {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 16px 32px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--ramka);
+}
+
+.swiat h3 { margin: 0; font-size: 18px; line-height: 1.6; }
+
+.swiat ol {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 36px;
+  margin: 0;
+  padding-left: 28px;
+}
+
+.swiat li { padding-left: 4px; }
+.swiat li::marker { color: var(--tekst-slaby); font-variant-numeric: tabular-nums; }
+
+.spoiler summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--zielony-ciemny);
+  margin-bottom: 12px;
+}
+
+.spoiler summary span { font-weight: 400; color: var(--tekst-slaby); }
+
+/* Galeria */
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+
+.galeria img {
+  border-radius: 10px;
+  box-shadow: var(--cien);
+  transition: transform 0.15s;
+}
+
+.galeria a:hover img { transform: scale(1.03); }
+
+/* Karty pobierania */
+
+.karty {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.karta {
+  position: relative;
+  background: var(--karta);
+  border: 1px solid var(--ramka);
+  border-radius: var(--promien);
+  padding: 20px 22px;
+  box-shadow: var(--cien);
+}
+
+.karta.polecana { border: 2px solid var(--pomaranczowy); }
+
+.karta ol { padding-left: 22px; }
+.karta li { margin-bottom: 6px; }
+
+.znaczek {
+  position: absolute;
+  top: -13px;
+  right: 18px;
+  margin: 0;
+  padding: 2px 12px;
+  border-radius: 999px;
+  background: var(--pomaranczowy);
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.dwie-kolumny {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.dwie-kolumny img { border-radius: 8px; box-shadow: var(--cien); }
+
+.lista li { margin-bottom: 6px; }
+
+/* Tabele */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--karta);
+  border-radius: var(--promien);
+  overflow: hidden;
+  box-shadow: var(--cien);
+}
+
+th, td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--ramka);
+  vertical-align: top;
+}
+
+th { background: var(--zielony); color: #fff; }
+
+tbody tr:last-child td { border-bottom: 0; }
+
+td:first-child { white-space: nowrap; }
+
+#problemy td:first-child { white-space: normal; width: 34%; font-weight: 600; }
+
+kbd {
+  display: inline-block;
+  min-width: 1.6em;
+  padding: 1px 6px;
+  border: 1px solid var(--ramka);
+  border-bottom-width: 3px;
+  border-radius: 6px;
+  background: var(--tlo);
+  font: 600 14px/1.4 ui-monospace, Consolas, monospace;
+  text-align: center;
+}
+
+code {
+  font: 14px ui-monospace, Consolas, monospace;
+  background: var(--zielony-jasny);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+/* Poprawki */
+
+.poprawki { list-style: none; padding: 0; }
+
+.poprawki li {
+  position: relative;
+  padding: 10px 0 10px 34px;
+  border-bottom: 1px dashed var(--ramka);
+}
+
+.poprawki li::before {
+  content: "✔";
+  position: absolute;
+  left: 4px;
+  top: 10px;
+  color: var(--zielony);
+  font-weight: 700;
+}
+
+/* Informacja prawna */
+
+.prawne {
+  font-size: 15px;
+  color: var(--tekst-slaby);
+}
+
+.prawne h2 { font-size: 24px; }
+
+/* Stopka */
+
+.stopka {
+  margin-top: 48px;
+  padding: 24px 16px;
+  text-align: center;
+  background: var(--zielony-jasny);
+  color: var(--tekst-slaby);
+  font-size: 15px;
+}
+
+/* Wąskie ekrany */
+
+@media (max-width: 760px) {
+  .hero, .dwie-kolumny { grid-template-columns: 1fr; }
+  .hero-obraz img { transform: none; }
+  .baner { height: 56px; gap: 12px; padding-right: 12px; }
+  .swiat { grid-template-columns: 1fr; gap: 8px; padding: 16px 0; }
+  section { scroll-margin-top: 150px; }
+  .menu { gap: 2px 12px; }
+  .menu a { font-size: 14px; }
+  td:first-child { white-space: normal; }
+}
+
+@media (max-width: 480px) {
+  .baner { gap: 8px; }
+  .baner img { max-width: 46vw; object-fit: contain; }
+  .baner-edycja { font-size: 20px; }
+  .swiat ol { grid-template-columns: 1fr; }
+}

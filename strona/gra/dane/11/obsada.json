@@ -1,0 +1,1515 @@
+[
+ {
+  "obsada": 1,
+  "numer": 1,
+  "typ": "script",
+  "nazwa": "preload"
+ },
+ {
+  "obsada": 1,
+  "numer": 2,
+  "typ": "script",
+  "nazwa": "looper_navigate"
+ },
+ {
+  "obsada": 1,
+  "numer": 3,
+  "typ": "script",
+  "nazwa": "loop_exit"
+ },
+ {
+  "obsada": 1,
+  "numer": 4,
+  "typ": "script",
+  "nazwa": "inicjalizacja_filmu"
+ },
+ {
+  "obsada": 1,
+  "numer": 5,
+  "typ": "script",
+  "nazwa": "Rollover Cursor Change"
+ },
+ {
+  "obsada": 1,
+  "numer": 7,
+  "typ": "script",
+  "nazwa": "inicjalizacja_kamer"
+ },
+ {
+  "obsada": 1,
+  "numer": 8,
+  "typ": "script",
+  "nazwa": "exit_confirmed"
+ },
+ {
+  "obsada": 1,
+  "numer": 9,
+  "typ": "script",
+  "nazwa": "back_confirmed"
+ },
+ {
+  "obsada": 1,
+  "numer": 10,
+  "typ": "script",
+  "nazwa": "play_again"
+ },
+ {
+  "obsada": 1,
+  "numer": 11,
+  "typ": "script",
+  "nazwa": "nastepnyEtap"
+ },
+ {
+  "obsada": 1,
+  "numer": 12,
+  "typ": "script",
+  "nazwa": "initialize_object"
+ },
+ {
+  "obsada": 1,
+  "numer": 13,
+  "typ": "script",
+  "nazwa": "initialize_double_object"
+ },
+ {
+  "obsada": 1,
+  "numer": 14,
+  "typ": "script",
+  "nazwa": "initialize_multiobject"
+ },
+ {
+  "obsada": 1,
+  "numer": 15,
+  "typ": "script",
+  "nazwa": "initialize_noproxy_object"
+ },
+ {
+  "obsada": 1,
+  "numer": 16,
+  "typ": "script",
+  "nazwa": "frame_one"
+ },
+ {
+  "obsada": 1,
+  "numer": 17,
+  "typ": "script",
+  "nazwa": "behavior_kubus"
+ },
+ {
+  "obsada": 1,
+  "numer": 18,
+  "typ": "script",
+  "nazwa": "init_animations"
+ },
+ {
+  "obsada": 1,
+  "numer": 19,
+  "typ": "script",
+  "nazwa": "f53_fpscounter"
+ },
+ {
+  "obsada": 1,
+  "numer": 20,
+  "typ": "script",
+  "nazwa": "add_crystals"
+ },
+ {
+  "obsada": 1,
+  "numer": 21,
+  "typ": "script",
+  "nazwa": "exit_confirmed_endetap"
+ },
+ {
+  "obsada": 1,
+  "numer": 24,
+  "typ": "script",
+  "nazwa": "add_demon_waypoint"
+ },
+ {
+  "obsada": 1,
+  "numer": 25,
+  "typ": "script",
+  "nazwa": "add_kaplan"
+ },
+ {
+  "obsada": 1,
+  "numer": 27,
+  "typ": "script",
+  "nazwa": "add_chrabaszcz_waypoint"
+ },
+ {
+  "obsada": 1,
+  "numer": 29,
+  "typ": "script",
+  "nazwa": "add_wojownik_waypoint"
+ },
+ {
+  "obsada": 1,
+  "numer": 33,
+  "typ": "script",
+  "nazwa": "behavior_komunikaty"
+ },
+ {
+  "obsada": 1,
+  "numer": 34,
+  "typ": "script",
+  "nazwa": "add_carrots"
+ },
+ {
+  "obsada": 1,
+  "numer": 35,
+  "typ": "script",
+  "nazwa": "change_lives"
+ },
+ {
+  "obsada": 1,
+  "numer": 36,
+  "typ": "script",
+  "nazwa": "ambient_sounds"
+ },
+ {
+  "obsada": 1,
+  "numer": 37,
+  "typ": "script",
+  "nazwa": "change_message"
+ },
+ {
+  "obsada": 1,
+  "numer": 38,
+  "typ": "script",
+  "nazwa": "change_energy"
+ },
+ {
+  "obsada": 1,
+  "numer": 39,
+  "typ": "script",
+  "nazwa": "add_wynalazca"
+ },
+ {
+  "obsada": 1,
+  "numer": 40,
+  "typ": "script",
+  "nazwa": "behavior_wynalazca"
+ },
+ {
+  "obsada": 1,
+  "numer": 41,
+  "typ": "script",
+  "nazwa": "behavior_chrabaszcz_waypoint"
+ },
+ {
+  "obsada": 1,
+  "numer": 42,
+  "typ": "script",
+  "nazwa": "behavior_wojownik_waypoint"
+ },
+ {
+  "obsada": 1,
+  "numer": 43,
+  "typ": "script",
+  "nazwa": "add_szperacz_waypoint"
+ },
+ {
+  "obsada": 1,
+  "numer": 44,
+  "typ": "script",
+  "nazwa": "behavior_szperacz_waypoint"
+ },
+ {
+  "obsada": 2,
+  "numer": 1,
+  "typ": "bitmap",
+  "nazwa": "0",
+  "plik": "bitmapy/0.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 2,
+  "typ": "bitmap",
+  "nazwa": "5",
+  "plik": "bitmapy/5.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 3,
+  "typ": "bitmap",
+  "nazwa": "10",
+  "plik": "bitmapy/10.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 4,
+  "typ": "bitmap",
+  "nazwa": "15",
+  "plik": "bitmapy/15.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 5,
+  "typ": "bitmap",
+  "nazwa": "20",
+  "plik": "bitmapy/20.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 6,
+  "typ": "bitmap",
+  "nazwa": "25",
+  "plik": "bitmapy/25.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 7,
+  "typ": "bitmap",
+  "nazwa": "30",
+  "plik": "bitmapy/30.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 8,
+  "typ": "bitmap",
+  "nazwa": "35",
+  "plik": "bitmapy/35.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 9,
+  "typ": "bitmap",
+  "nazwa": "40",
+  "plik": "bitmapy/40.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 10,
+  "typ": "bitmap",
+  "nazwa": "45",
+  "plik": "bitmapy/45.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 11,
+  "typ": "bitmap",
+  "nazwa": "50",
+  "plik": "bitmapy/50.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 12,
+  "typ": "bitmap",
+  "nazwa": "55",
+  "plik": "bitmapy/55.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 13,
+  "typ": "bitmap",
+  "nazwa": "60",
+  "plik": "bitmapy/60.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 14,
+  "typ": "bitmap",
+  "nazwa": "65",
+  "plik": "bitmapy/65.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 15,
+  "typ": "bitmap",
+  "nazwa": "70",
+  "plik": "bitmapy/70.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 16,
+  "typ": "bitmap",
+  "nazwa": "75",
+  "plik": "bitmapy/75.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 17,
+  "typ": "bitmap",
+  "nazwa": "80",
+  "plik": "bitmapy/80.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 18,
+  "typ": "bitmap",
+  "nazwa": "85",
+  "plik": "bitmapy/85.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 19,
+  "typ": "bitmap",
+  "nazwa": "90",
+  "plik": "bitmapy/90.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 20,
+  "typ": "bitmap",
+  "nazwa": "95",
+  "plik": "bitmapy/95.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 21,
+  "typ": "bitmap",
+  "nazwa": "100",
+  "plik": "bitmapy/100.png",
+  "rozmiar": [
+   128,
+   32
+  ],
+  "rejestracja": [
+   64,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 22,
+  "typ": "bitmap",
+  "nazwa": "L0",
+  "plik": "bitmapy/L0.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 23,
+  "typ": "bitmap",
+  "nazwa": "L1",
+  "plik": "bitmapy/L1.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 24,
+  "typ": "bitmap",
+  "nazwa": "L2",
+  "plik": "bitmapy/L2.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 25,
+  "typ": "bitmap",
+  "nazwa": "L3",
+  "plik": "bitmapy/L3.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 26,
+  "typ": "bitmap",
+  "nazwa": "L4",
+  "plik": "bitmapy/L4.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 27,
+  "typ": "bitmap",
+  "nazwa": "L5",
+  "plik": "bitmapy/L5.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 28,
+  "typ": "bitmap",
+  "nazwa": "L6",
+  "plik": "bitmapy/L6.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 29,
+  "typ": "bitmap",
+  "nazwa": "L7",
+  "plik": "bitmapy/L7.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 30,
+  "typ": "bitmap",
+  "nazwa": "L8",
+  "plik": "bitmapy/L8.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 31,
+  "typ": "bitmap",
+  "nazwa": "L9",
+  "plik": "bitmapy/L9.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 32,
+  "typ": "bitmap",
+  "nazwa": "P0",
+  "plik": "bitmapy/P0.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 33,
+  "typ": "bitmap",
+  "nazwa": "P1",
+  "plik": "bitmapy/P1.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 34,
+  "typ": "bitmap",
+  "nazwa": "P2",
+  "plik": "bitmapy/P2.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 35,
+  "typ": "bitmap",
+  "nazwa": "P3",
+  "plik": "bitmapy/P3.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 36,
+  "typ": "bitmap",
+  "nazwa": "P4",
+  "plik": "bitmapy/P4.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 37,
+  "typ": "bitmap",
+  "nazwa": "P5",
+  "plik": "bitmapy/P5.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 38,
+  "typ": "bitmap",
+  "nazwa": "P6",
+  "plik": "bitmapy/P6.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 39,
+  "typ": "bitmap",
+  "nazwa": "P7",
+  "plik": "bitmapy/P7.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 40,
+  "typ": "bitmap",
+  "nazwa": "P8",
+  "plik": "bitmapy/P8.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 41,
+  "typ": "bitmap",
+  "nazwa": "P9",
+  "plik": "bitmapy/P9.png",
+  "rozmiar": [
+   32,
+   32
+  ],
+  "rejestracja": [
+   16,
+   16
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 42,
+  "typ": "bitmap",
+  "nazwa": "moneta",
+  "plik": "bitmapy/moneta.png",
+  "rozmiar": [
+   64,
+   128
+  ],
+  "rejestracja": [
+   32,
+   64
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 43,
+  "typ": "flash",
+  "nazwa": "bt_gramjeszczeraz"
+ },
+ {
+  "obsada": 2,
+  "numer": 44,
+  "typ": "flash",
+  "nazwa": "e_koniecgry1"
+ },
+ {
+  "obsada": 2,
+  "numer": 45,
+  "typ": "flash",
+  "nazwa": "bt_zakoncz"
+ },
+ {
+  "obsada": 2,
+  "numer": 46,
+  "typ": "flash",
+  "nazwa": "e_ekran esc02"
+ },
+ {
+  "obsada": 2,
+  "numer": 47,
+  "typ": "flash",
+  "nazwa": "bt_gramdalej"
+ },
+ {
+  "obsada": 2,
+  "numer": 48,
+  "typ": "flash",
+  "nazwa": "e_kolejnyetap"
+ },
+ {
+  "obsada": 2,
+  "numer": 49,
+  "typ": "flash",
+  "nazwa": "button_zakoncz"
+ },
+ {
+  "obsada": 2,
+  "numer": 51,
+  "typ": "bitmap",
+  "nazwa": "zycie1",
+  "plik": "bitmapy/zycie1.png",
+  "rozmiar": [
+   256,
+   64
+  ],
+  "rejestracja": [
+   128,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 52,
+  "typ": "bitmap",
+  "nazwa": "zycie2",
+  "plik": "bitmapy/zycie2.png",
+  "rozmiar": [
+   256,
+   64
+  ],
+  "rejestracja": [
+   128,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 53,
+  "typ": "bitmap",
+  "nazwa": "zycie3",
+  "plik": "bitmapy/zycie3.png",
+  "rozmiar": [
+   256,
+   64
+  ],
+  "rejestracja": [
+   128,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 58,
+  "typ": "flash",
+  "nazwa": "ladowanie_gry"
+ },
+ {
+  "obsada": 2,
+  "numer": 61,
+  "typ": "bitmap",
+  "nazwa": "lustro",
+  "plik": "bitmapy/lustro.png",
+  "rozmiar": [
+   64,
+   64
+  ],
+  "rejestracja": [
+   32,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 64,
+  "typ": "bitmap",
+  "nazwa": "k00_pokoj_badan",
+  "plik": "bitmapy/k00_pokoj_badan.png",
+  "rozmiar": [
+   512,
+   64
+  ],
+  "rejestracja": [
+   256,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 65,
+  "typ": "bitmap",
+  "nazwa": "K01_pokoj_badan",
+  "plik": "bitmapy/K01_pokoj_badan.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 66,
+  "typ": "bitmap",
+  "nazwa": "K02_pokoj_badan",
+  "plik": "bitmapy/K02_pokoj_badan.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 67,
+  "typ": "bitmap",
+  "nazwa": "K03_pokoj_badan",
+  "plik": "bitmapy/K03_pokoj_badan.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 68,
+  "typ": "bitmap",
+  "nazwa": "K04_pokoj_badan",
+  "plik": "bitmapy/K04_pokoj_badan.png",
+  "rozmiar": [
+   512,
+   128
+  ],
+  "rejestracja": [
+   256,
+   64
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 69,
+  "typ": "bitmap",
+  "nazwa": "01_energia",
+  "plik": "bitmapy/01_energia.png",
+  "rozmiar": [
+   128,
+   256
+  ],
+  "rejestracja": [
+   64,
+   128
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 74,
+  "typ": "bitmap",
+  "nazwa": "02_energia",
+  "plik": "bitmapy/02_energia.png",
+  "rozmiar": [
+   128,
+   256
+  ],
+  "rejestracja": [
+   64,
+   128
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 75,
+  "typ": "bitmap",
+  "nazwa": "amuletslonca01",
+  "plik": "bitmapy/amuletslonca01.png",
+  "rozmiar": [
+   128,
+   64
+  ],
+  "rejestracja": [
+   64,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 76,
+  "typ": "bitmap",
+  "nazwa": "miecz01",
+  "plik": "bitmapy/miecz01.png",
+  "rozmiar": [
+   128,
+   64
+  ],
+  "rejestracja": [
+   64,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 77,
+  "typ": "bitmap",
+  "nazwa": "okosmoka01",
+  "plik": "bitmapy/okosmoka01.png",
+  "rozmiar": [
+   128,
+   64
+  ],
+  "rejestracja": [
+   64,
+   32
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 78,
+  "typ": "bitmap",
+  "nazwa": "03_energia",
+  "plik": "bitmapy/03_energia.png",
+  "rozmiar": [
+   128,
+   256
+  ],
+  "rejestracja": [
+   64,
+   128
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 79,
+  "typ": "bitmap",
+  "nazwa": "04_energia",
+  "plik": "bitmapy/04_energia.png",
+  "rozmiar": [
+   128,
+   256
+  ],
+  "rejestracja": [
+   64,
+   128
+  ]
+ },
+ {
+  "obsada": 2,
+  "numer": 80,
+  "typ": "bitmap",
+  "nazwa": "05_energia",
+  "plik": "bitmapy/05_energia.png",
+  "rozmiar": [
+   128,
+   256
+  ],
+  "rejestracja": [
+   64,
+   128
+  ]
+ },
+ {
+  "obsada": 3,
+  "numer": 1,
+  "typ": "sound",
+  "nazwa": "muza",
+  "plik": "dzwieki/muza.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 2,
+  "typ": "sound",
+  "nazwa": "sound_computer_on",
+  "plik": "dzwieki/sound_computer_on.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 3,
+  "typ": "sound",
+  "nazwa": "sound_chrabaszcz_atak1",
+  "plik": "dzwieki/sound_chrabaszcz_atak1.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 4,
+  "typ": "sound",
+  "nazwa": "sound_chrabaszcz_atak2",
+  "plik": "dzwieki/sound_chrabaszcz_atak2.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 5,
+  "typ": "sound",
+  "nazwa": "sound_chrabaszcz_walk",
+  "plik": "dzwieki/sound_chrabaszcz_walk.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 6,
+  "typ": "sound",
+  "nazwa": "sound_szperacz_atak1",
+  "plik": "dzwieki/sound_szperacz_atak1.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 7,
+  "typ": "sound",
+  "nazwa": "sound_szperacz_atak2",
+  "plik": "dzwieki/sound_szperacz_atak2.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 8,
+  "typ": "sound",
+  "nazwa": "sound_szperacz_walk",
+  "plik": "dzwieki/sound_szperacz_walk.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 9,
+  "typ": "sound",
+  "nazwa": "sound_wojownik_atak1",
+  "plik": "dzwieki/sound_wojownik_atak1.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 10,
+  "typ": "sound",
+  "nazwa": "sound_kubus_kroki",
+  "plik": "dzwieki/sound_kubus_kroki.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 11,
+  "typ": "sound",
+  "nazwa": "sound_wojownik_atak2",
+  "plik": "dzwieki/sound_wojownik_atak2.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 12,
+  "typ": "sound",
+  "nazwa": "sound_wojownik_atak3",
+  "plik": "dzwieki/sound_wojownik_atak3.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 13,
+  "typ": "sound",
+  "nazwa": "sound_kubus_skok",
+  "plik": "dzwieki/sound_kubus_skok.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 14,
+  "typ": "sound",
+  "nazwa": "sound_wojownik_walk",
+  "plik": "dzwieki/sound_wojownik_walk.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 15,
+  "typ": "sound",
+  "nazwa": "sound_Wynalazca_ambient1",
+  "plik": "dzwieki/sound_Wynalazca_ambient1.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 16,
+  "typ": "sound",
+  "nazwa": "sound_Wynalazca_ambient2",
+  "plik": "dzwieki/sound_Wynalazca_ambient2.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 17,
+  "typ": "sound",
+  "nazwa": "sound_wynalazca_happy",
+  "plik": "dzwieki/sound_wynalazca_happy.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 18,
+  "typ": "sound",
+  "nazwa": "sound_wynalazca_talk",
+  "plik": "dzwieki/sound_wynalazca_talk.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 19,
+  "typ": "sound",
+  "nazwa": "zamykanie_schowka",
+  "plik": "dzwieki/zamykanie_schowka.mp3"
+ },
+ {
+  "obsada": 3,
+  "numer": 20,
+  "typ": "sound",
+  "nazwa": "otwieranie_drzwi",
+  "plik": "dzwieki/otwieranie_drzwi.mp3"
+ },
+ {
+  "obsada": 4,
+  "numer": 1,
+  "typ": "shockwave3d",
+  "nazwa": "ziemia",
+  "plik": "modele/ziemia"
+ },
+ {
+  "obsada": 4,
+  "numer": 2,
+  "typ": "shockwave3d",
+  "nazwa": "chrabaszcz",
+  "plik": "modele/chrabaszcz"
+ },
+ {
+  "obsada": 4,
+  "numer": 3,
+  "typ": "shockwave3d",
+  "nazwa": "chrabaszcz_attack1",
+  "plik": "modele/chrabaszcz_attack1"
+ },
+ {
+  "obsada": 4,
+  "numer": 4,
+  "typ": "shockwave3d",
+  "nazwa": "chrabaszcz_attack2",
+  "plik": "modele/chrabaszcz_attack2"
+ },
+ {
+  "obsada": 4,
+  "numer": 5,
+  "typ": "shockwave3d",
+  "nazwa": "wynalazca_proxy",
+  "plik": "modele/wynalazca_proxy"
+ },
+ {
+  "obsada": 4,
+  "numer": 6,
+  "typ": "shockwave3d",
+  "nazwa": "wynalazca_happy",
+  "plik": "modele/wynalazca_happy"
+ },
+ {
+  "obsada": 4,
+  "numer": 7,
+  "typ": "shockwave3d",
+  "nazwa": "wynalazca_ambient1",
+  "plik": "modele/wynalazca_ambient1"
+ },
+ {
+  "obsada": 4,
+  "numer": 8,
+  "typ": "shockwave3d",
+  "nazwa": "wynalazca_ambient2",
+  "plik": "modele/wynalazca_ambient2"
+ },
+ {
+  "obsada": 4,
+  "numer": 9,
+  "typ": "shockwave3d",
+  "nazwa": "wynalazca",
+  "plik": "modele/wynalazca"
+ },
+ {
+  "obsada": 4,
+  "numer": 10,
+  "typ": "shockwave3d",
+  "nazwa": "chrabaszcz_walk",
+  "plik": "modele/chrabaszcz_walk"
+ },
+ {
+  "obsada": 4,
+  "numer": 11,
+  "typ": "shockwave3d",
+  "nazwa": "szperacz",
+  "plik": "modele/szperacz"
+ },
+ {
+  "obsada": 4,
+  "numer": 12,
+  "typ": "shockwave3d",
+  "nazwa": "szperacz_attack1",
+  "plik": "modele/szperacz_attack1"
+ },
+ {
+  "obsada": 4,
+  "numer": 13,
+  "typ": "shockwave3d",
+  "nazwa": "kubus",
+  "plik": "modele/kubus"
+ },
+ {
+  "obsada": 4,
+  "numer": 14,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_takeup",
+  "plik": "modele/kubus_takeup"
+ },
+ {
+  "obsada": 4,
+  "numer": 15,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_proxy",
+  "plik": "modele/kubus_proxy"
+ },
+ {
+  "obsada": 4,
+  "numer": 16,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_hit",
+  "plik": "modele/kubus_hit"
+ },
+ {
+  "obsada": 4,
+  "numer": 17,
+  "typ": "shockwave3d",
+  "nazwa": "wynalazca_talk",
+  "plik": "modele/wynalazca_talk"
+ },
+ {
+  "obsada": 4,
+  "numer": 18,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_runjump",
+  "plik": "modele/kubus_runjump"
+ },
+ {
+  "obsada": 4,
+  "numer": 19,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_take",
+  "plik": "modele/kubus_take"
+ },
+ {
+  "obsada": 4,
+  "numer": 20,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_run",
+  "plik": "modele/kubus_run"
+ },
+ {
+  "obsada": 4,
+  "numer": 21,
+  "typ": "shockwave3d",
+  "nazwa": "kubus_ambient1",
+  "plik": "modele/kubus_ambient1"
+ },
+ {
+  "obsada": 4,
+  "numer": 22,
+  "typ": "shockwave3d",
+  "nazwa": "szperacz_attack2",
+  "plik": "modele/szperacz_attack2"
+ },
+ {
+  "obsada": 4,
+  "numer": 23,
+  "typ": "shockwave3d",
+  "nazwa": "szperacz_walk1",
+  "plik": "modele/szperacz_walk1"
+ },
+ {
+  "obsada": 4,
+  "numer": 24,
+  "typ": "shockwave3d",
+  "nazwa": "szperacz_walk2",
+  "plik": "modele/szperacz_walk2"
+ },
+ {
+  "obsada": 4,
+  "numer": 25,
+  "typ": "shockwave3d",
+  "nazwa": "wojownik",
+  "plik": "modele/wojownik"
+ },
+ {
+  "obsada": 4,
+  "numer": 26,
+  "typ": "shockwave3d",
+  "nazwa": "wojownik_attack1",
+  "plik": "modele/wojownik_attack1"
+ },
+ {
+  "obsada": 4,
+  "numer": 27,
+  "typ": "shockwave3d",
+  "nazwa": "wojownik_attack2",
+  "plik": "modele/wojownik_attack2"
+ },
+ {
+  "obsada": 4,
+  "numer": 28,
+  "typ": "shockwave3d",
+  "nazwa": "wojownik_attack3",
+  "plik": "modele/wojownik_attack3"
+ },
+ {
+  "obsada": 4,
+  "numer": 29,
+  "typ": "shockwave3d",
+  "nazwa": "wojownik_walk",
+  "plik": "modele/wojownik_walk"
+ },
+ {
+  "obsada": 4,
+  "numer": 30,
+  "typ": "shockwave3d",
+  "nazwa": "chrabaszcz_proxy",
+  "plik": "modele/chrabaszcz_proxy"
+ },
+ {
+  "obsada": 4,
+  "numer": 31,
+  "typ": "shockwave3d",
+  "nazwa": "szperacz_proxy",
+  "plik": "modele/szperacz_proxy"
+ },
+ {
+  "obsada": 4,
+  "numer": 32,
+  "typ": "shockwave3d",
+  "nazwa": "wojownik_proxy",
+  "plik": "modele/wojownik_proxy"
+ }
+]

@@ -1,0 +1,42 @@
+#include <windows.h>
+#include "resource.h"
+
+IDI_KUBUS ICON "res/kubus.ico"
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "kubus.manifest"
+
+IDR_BANNER RCDATA "res/baner.jpg"
+101 RCDATA "res/poziom01.jpg"
+102 RCDATA "res/poziom02.jpg"
+103 RCDATA "res/poziom03.jpg"
+104 RCDATA "res/poziom04.jpg"
+105 RCDATA "res/poziom05.jpg"
+106 RCDATA "res/poziom06.jpg"
+107 RCDATA "res/poziom07.jpg"
+108 RCDATA "res/poziom08.jpg"
+109 RCDATA "res/poziom09.jpg"
+110 RCDATA "res/poziom10.jpg"
+111 RCDATA "res/poziom11.jpg"
+
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION WERSJA_NUM
+PRODUCTVERSION WERSJA_NUM
+FILEOS VOS_NT_WINDOWS32
+FILETYPE VFT_APP
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041504B0"
+        BEGIN
+            VALUE "FileDescription", "Kubus i Wehikul Czasu - launcher"
+            VALUE "ProductName", "Kubus i Wehikul Czasu (fanowskie wydanie)"
+            VALUE "FileVersion", WERSJA_STR
+            VALUE "ProductVersion", WERSJA_STR
+            VALUE "OriginalFilename", "Kubus.exe"
+            VALUE "Comments", "https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0415, 1200
+    END
+END

@@ -1,0 +1,16 @@
+[package]
+name = "w3d_eksport"
+version = "0.1.0"
+edition = "2024"
+license = "GPL-3.0-only"
+description = "Eksport scen Shockwave 3D (W3D) z gry Kubuś i Wehikuł Czasu do formatu portu three.js"
+publish = false
+
+[dependencies]
+# Parser W3D z DirPlayera (z łatką tools/dirplayer/dirplayer-kubus.patch).
+# Katalog dirplayer-rs przygotowuje tools/port/zbuduj_zasoby.sh.
+vm-rust = { path = "dirplayer-rs/vm-rust", default-features = false }
+serde_json = "1.0"
+
+[profile.release]
+opt-level = 3

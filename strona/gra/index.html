@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kubuś i Wehikuł Czasu – zagraj w przeglądarce</title>
+  <meta name="description" content="Zagraj we wszystkie 11 poziomów gry Kubuś i Wehikuł Czasu w przeglądarce, bez instalowania. Wersja na three.js z oryginalnymi modelami, teksturami i dźwiękami.">
+  <meta name="theme-color" content="#6db33f">
+  <link rel="icon" href="../favicon.ico">
+  <link rel="stylesheet" href="../styl.css">
+  <link rel="stylesheet" href="gra.css">
+</head>
+<body>
+
+<header class="naglowek">
+  <div class="baner">
+    <a href="../"><img src="../logo.jpg" alt="Kubuś i Wehikuł Czasu" width="630" height="216"></a>
+    <span class="baner-edycja">Edycja Fanowska</span>
+  </div>
+  <nav class="menu" aria-label="Nawigacja">
+    <a href="../">Strona gry</a>
+    <a href="#sterowanie">Sterowanie</a>
+    <a href="#o-wersji">O tej wersji</a>
+    <a href="../#pobierz">Pełna wersja na Windows</a>
+  </nav>
+</header>
+
+<main>
+
+<section class="gra-sekcja">
+  <h1>Zagraj w przeglądarce</h1>
+  <p>
+    Wszystkie 11 poziomów odtworzonych od nowa: modele, tekstury i dźwięki
+    pochodzą z oryginalnej gry, a jej logika (skrypty Lingo) została przepisana na JavaScript.
+  </p>
+
+  <div class="wybor-poziomu">
+    <div class="wybor-poziomu-pole">
+      <label for="poziom">Wybierz poziom</label>
+      <select id="poziom">
+        <option value="01">1. Droga do zamku</option>
+      </select>
+    </div>
+    <label class="pokaz-poziomy" for="pokaz-nieodblokowane">
+      <input id="pokaz-nieodblokowane" type="checkbox" aria-controls="poziom">
+      Pokaż nieodblokowane poziomy
+    </label>
+  </div>
+
+  <div class="ekran" id="ekran">
+    <div class="ekran-start" id="start">
+      <img src="../zrzuty/04.jpg" alt="" width="640" height="480">
+      <div class="ekran-start-tresc">
+        <button class="przycisk glowny" id="graj" type="button">▶ Graj</button>
+        <div class="ladowanie"><div id="pasek"></div></div>
+        <p>Pobiorą się zasoby wybranego poziomu (ok. 3–9&nbsp;MB).</p>
+      </div>
+    </div>
+    <div class="plansza" id="plansza" tabindex="0" hidden></div>
+    <div class="ekran-nakladka" id="menu" hidden>
+      <h2>Przerwa</h2>
+      <div class="przyciski">
+        <button class="przycisk glowny" id="gram-dalej" type="button">Gram dalej</button>
+        <button class="przycisk" id="zakoncz" type="button">Zakończ</button>
+      </div>
+    </div>
+    <div class="ekran-nakladka" id="koniec" hidden>
+      <img class="final-gry plansza-finalu" id="plansza-finalu" width="640" height="480" alt="Brawo! Dzięki Twojej odwadze i sprytowi udało się ocalić Miasto Przyszłości. Mechaniczny Wynalazca uruchomił portal, który przeniósł Kubusia do naszych czasów i tak skończyła się ta przygoda.">
+      <h2 class="wygrana" id="tekst-wygranej">Brawo!</h2>
+      <h2 class="przegrana">Koniec gry</h2>
+      <p class="wygrana" id="dalsze-poziomy" hidden>Ukończone wszystkie 11 poziomów. Dziękujemy za grę!</p>
+      <div class="przyciski">
+        <a class="przycisk glowny wygrana" id="nastepny-poziom" href="?poziom=2" hidden>Gram dalej — poziom 2</a>
+        <a class="przycisk final-gry" id="powrot-na-strone" href="../">Powrót na stronę gry</a>
+        <button class="przycisk glowny" id="jeszcze-raz" type="button">Zagraj jeszcze raz</button>
+        <a class="przycisk pobierz-wersje" href="../#pobierz">⬇ Pełna wersja</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="pod-ekranem">
+    <button class="przycisk" id="pelny-ekran" type="button">⛶ Pełny ekran</button>
+    <div class="glosnosc">
+      <label for="glosnosc">Głośność</label>
+      <input id="glosnosc" type="range" min="0" max="100" value="100" aria-valuetext="100%">
+      <output id="glosnosc-wartosc" for="glosnosc">100%</output>
+    </div>
+    <p class="drobne">Jeśli Kubuś nie reaguje na klawisze, kliknij obraz gry.</p>
+  </div>
+</section>
+
+<section id="sterowanie">
+  <h2>Sterowanie</h2>
+  <table>
+    <thead><tr><th>Klawisz</th><th>Działanie</th></tr></thead>
+    <tbody>
+      <tr><td><kbd>↑</kbd></td><td>bieg do przodu</td></tr>
+      <tr><td><kbd>←</kbd> <kbd>→</kbd></td><td>obrót</td></tr>
+      <tr><td><kbd>Spacja</kbd></td><td>skok</td></tr>
+      <tr><td><kbd>Ctrl</kbd></td><td>działanie: poziom 2 — kowal i mechanizm bramy; poziom 3 — dzwon i drzwi; poziom 4 — skrzynie i dźwignia; poziom 5 — przesuwane drzwi; poziom 6 — drzwi i skrzynie; poziom 7 — drzwi i szkatułka; poziom 8 — zapalanie pochodni; poziom 9 — kamienie mocy i zwierciadło; poziom 10 — konsola po zebraniu 35 ogniw; poziom 11 — umieszczanie artefaktów w schowkach</td></tr>
+      <tr><td><kbd>+</kbd> / <kbd>-</kbd></td><td>szybsza / wolniejsza gra</td></tr>
+      <tr><td><kbd>Esc</kbd></td><td>przerwa</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="o-wersji">
+  <h2>O tej wersji</h2>
+  <ul class="lista">
+    <li>Gra wymaga aktualnej przeglądarki z obsługą WebGL. Postęp jest zapisywany w tej przeglądarce.</li>
+    <li>
+      Gra działa na <a href="https://threejs.org/">three.js</a>. Sceny 3D zostały wyeksportowane
+      z plików Shockwave narzędziem z repozytorium (parser W3D z projektu
+      <a href="https://github.com/igorlira/dirplayer-rs">DirPlayer</a>), a skrypty poziomu
+      przepisane z Lingo na JavaScript z zachowaniem oryginalnych reguł ruchu, kolizji i przeciwników.
+    </li>
+    <li>
+      W przeglądarce dostępnych jest wszystkich 11 poziomów. Jeśli coś działa inaczej niż w oryginale,
+      <a href="https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/issues">zgłoś to</a>.
+    </li>
+  </ul>
+  <p class="drobne">
+    three.js jest na licencji MIT. Prawa do gry należą do ich właścicieli, szczegóły w
+    <a href="../#prawne">informacji prawnej</a>.
+  </p>
+</section>
+
+</main>
+
+<footer class="stopka">
+  <p>
+    Kubuś i Wehikuł Czasu – edycja fanowska ·
+    <a href="../">Strona gry</a> ·
+    <a href="https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska">GitHub</a>
+  </p>
+</footer>
+
+<script type="module" src="js/gra.js"></script>
+</body>
+</html>
