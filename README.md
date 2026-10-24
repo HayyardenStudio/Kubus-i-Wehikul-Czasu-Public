@@ -13,11 +13,11 @@ To repozytorium zbiera **pełną wersję (11 poziomów)** w jednym miejscu, popr
 dało się w nią normalnie zagrać, i pakuje ją w instalator z wygodnym launcherem.
 
 
-**[⬇ Pobierz najnowsze wydanie](https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/releases/latest)** – instalator albo wersja przenośna (ZIP).
+**[⬇ Pobierz najnowsze wydanie](https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Edycja-fanowska/releases/latest)** – instalator albo wersja przenośna (ZIP).
 
-Strona gry: **[hayyarden.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska](https://hayyarden.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/)**
+Strona gry: **[hayyardenstudio.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska](https://hayyardenstudio.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/)**
 
-**[▶ Zagraj w przeglądarce](https://hayyarden.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/gra/)** – wszystkie 11 poziomów na three.js, bez instalowania.
+**[▶ Zagraj w przeglądarce](https://hayyardenstudio.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/gra/)** – wszystkie 11 poziomów na three.js, bez instalowania.
 
 > To nieoficjalny, niekomercyjny projekt fanów. Szczegóły w sekcji [Informacja prawna](#informacja-prawna).
 
@@ -57,7 +57,7 @@ Wymagania: Windows 10 lub 11, karta graficzna z obsługą 3D.
 
 ### W przeglądarce (poziomy 1–11)
 
-Na [stronie gry](https://hayyarden.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/gra/) można
+Na [stronie gry](https://hayyardenstudio.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/gra/) można
 zagrać we wszystkie 11 poziomów bez instalowania czegokolwiek: **Droga do zamku**, **Duży dziedziniec**, **Mały dziedziniec**, **Zamek króla Artura**, **Dziedziniec pałacu szoguna**, **Pałac szoguna**, **Komnata szoguna**, **Hol świątyni**, **Trzy próby**, **Hol laboratorium** i **Pokój badań**. Gra działa na three.js. Modele,
 tekstury i dźwięki pochodzą z oryginału, a skrypty Lingo zostały przepisane na JavaScript.
 Potrzebny jest komputer z klawiaturą i aktualna przeglądarka z obsługą WebGL.
@@ -82,7 +82,7 @@ Szczegóły techniczne: [`tools/w3d_eksport/README.md`](tools/w3d_eksport/README
 ### Instalator (polecany)
 
 1. Pobierz i wypakuj paczkę `Kubus-i-Wehikul-Czasu-1.0.zip` z
-   [Releases](https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/releases/latest) i uruchom `Kubus-i-Wehikul-Czasu-<wersja>-instalator.exe`.
+   [Releases](https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Edycja-fanowska/releases/latest) i uruchom `Kubus-i-Wehikul-Czasu-<wersja>-instalator.exe`.
 2. Plik .exe nie jest sygnowany, dlatego najpewniej uruchomi się Windows Defender SmartScreen - wybierz `Więcej informacji` i `Uruchom mimo to`.
 3. Zostaw zaznaczony **Adobe Shockwave Player 12.3**, jeśli nie jest u Ciebie zainstalowany. Instalator dołącza instalator Adobe.
 4. Uruchom grę skrótem „Kubuś i Wehikuł Czasu”, wybierz poziom i kliknij **Graj!**
@@ -148,7 +148,7 @@ ustawienia (np. „Uruchom w rozdzielczości 640×480”) mogą przeszkadzać.
 Zapasowy sposób uruchamiania bez launchera to `Graj.cmd` w folderze z poziomami (menu w konsoli,
 `Graj.cmd 5 okno` uruchamia poziom 5 w oknie).
 
-Jeśli trafisz na błąd, [zgłoś go](https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/issues).
+Jeśli trafisz na błąd, [zgłoś go](https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Public/issues).
 Napisz, jaką masz wersję Windowsa i kartę graficzną.
 
 ## Co zostało poprawione
