@@ -13,7 +13,7 @@ To repozytorium zbiera **pełną wersję (11 poziomów)** w jednym miejscu, popr
 dało się w nią normalnie zagrać, i pakuje ją w instalator z wygodnym launcherem.
 
 
-**[⬇ Pobierz najnowsze wydanie](https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Edycja-fanowska/releases/latest)** – instalator albo wersja przenośna (ZIP).
+**[⬇ Pobierz najnowsze wydanie](https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Public/releases/latest)** – instalator albo wersja przenośna (ZIP).
 
 Strona gry: **[hayyardenstudio.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska](https://hayyardenstudio.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/)**
 
@@ -210,7 +210,7 @@ Szczegółowy opis zmian: [`pelna_wersja/README.md`](pelna_wersja/README.md) i
   i „Zakończ”), bez przechodzenia poziomu od początku do końca.
 - Poprawki gry były sprawdzane pod Wine (szczegóły w plikach `README.md` w folderach `pelna_wersja` i `poprawka`).
 - Jeśli zagrasz i napotkasz buga lub inny problem, daj znać w
-  [Issues](https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/issues), czy wszystko działa.
+  [Issues](https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Public/issues), czy wszystko działa.
 
 ## Informacja prawna
 
@@ -221,7 +221,7 @@ Szczegółowy opis zmian: [`pelna_wersja/README.md`](pelna_wersja/README.md) i
   Projekt nie jest z nią związany ani przez nich wspierany.
 - Wydanie jest darmowe. Nie wolno go sprzedawać.
 - **Jeśli jesteś właścicielem praw** i chcesz się skontaktować, załóż ticket w
-  [Issues](https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/issues). 
+  [Issues]([https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/issues](https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Public/issues)). 
 
 Dołączone programy innych autorów:
 
@@ -242,7 +242,7 @@ Windows. It ships with a launcher and an installer, and fixes the original's pro
 running several times too fast (movement is per-frame), forced 640×480 display mode,
 level-to-level transitions that pointed at the dead website, and two gameplay bugs. Download the
 installer or the portable ZIP from
-[Releases](https://github.com/Hayyarden/Kubus-i-Wehikul-Czasu-Edycja-fanowska/releases/latest). Adobe Shockwave
+[Releases]([https://github.com/HayyardenStudio/Kubus-i-Wehikul-Czasu-Public/issues]). Adobe Shockwave
 Player 12 is required and is bundled. The game itself is in Polish.
 
 All rights to the game belong to their respective owners. If you hold the rights and want this
