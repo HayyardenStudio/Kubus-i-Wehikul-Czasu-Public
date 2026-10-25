@@ -58,26 +58,7 @@ Wymagania: Windows 10 lub 11, karta graficzna z obsługą 3D.
 ### W przeglądarce (poziomy 1–11)
 
 Na [stronie gry](https://hayyardenstudio.github.io/Kubus-i-Wehikul-Czasu-Edycja-fanowska/gra/) można
-zagrać we wszystkie 11 poziomów bez instalowania czegokolwiek: **Droga do zamku**, **Duży dziedziniec**, **Mały dziedziniec**, **Zamek króla Artura**, **Dziedziniec pałacu szoguna**, **Pałac szoguna**, **Komnata szoguna**, **Hol świątyni**, **Trzy próby**, **Hol laboratorium** i **Pokój badań**. Gra działa na three.js. Modele,
-tekstury i dźwięki pochodzą z oryginału, a skrypty Lingo zostały przepisane na JavaScript.
-Potrzebny jest komputer z klawiaturą i aktualna przeglądarka z obsługą WebGL.
-Poziom wybiera się przed startem; po ukończeniu każdego z pierwszych dziesięciu przycisk „Gram dalej” prowadzi do następnego.
-Selektor nad grą pokazuje domyślnie tylko odblokowane etapy. Wygrana odblokowuje kolejny,
-a postęp zapisuje się w przeglądarce. Checkbox „Pokaż nieodblokowane poziomy” odsłania pozostałe etapy i pozwala je wybrać.
-Na Dużym dziedzińcu **Ctrl** służy do naprawy dźwigni u kowala oraz montażu i użycia mechanizmu bramy.
-Na Małym dziedzińcu **Ctrl** uruchamia dzwon odciągający strażników oraz otwiera drzwi do zamku.
-W Zamku króla Artura **Ctrl** otwiera skrzynie i uruchamia dźwignię czasowej kraty.
-Na Dziedzińcu pałacu szoguna zbierz 50 kryształów i podejdź do smoka, aby otworzyć bramę pałacu. **Ctrl** otwiera przesuwane drzwi.
-W Pałacu szoguna **Ctrl** otwiera 30 przesuwanych drzwi i 11 skrzyń. Odszukaj łuk i kołczan, aby otworzyć drzwi do komnaty szoguna.
-W Komnacie szoguna zbierz 20 strzał, wręcz łuk szogunowi i otwórz szkatułkę klawiszem **Ctrl**. Oko Smoka uruchamia portal.
-W Holu świątyni zapal 16 pochodni klawiszem **Ctrl**, wróć do kapłana i przejdź przez końcowe drzwi. Uważaj na węże i pułapki strzelające.
-W Trzech próbach zdobądź trzy kamienie mocy, wróć do kapłana i uruchom trzy ołtarze klawiszem **Ctrl**.
-Zabierz zwierciadło, ustaw je u królowej i zdobądź Amulet Słońca, który otwiera portal.
-W Holu laboratorium zbierz 35 ogniw energetycznych i uruchom konsolę klawiszem **Ctrl**, aby otworzyć pokój badań.
-W Pokoju badań umieść Ekskalibur, Oko Smoka i Amulet Słońca w trzech schowkach klawiszem **Ctrl**.
-Komplet uruchamia komputer i zatrzymuje wojowników. Wróć do wynalazcy, aby zakończyć przygodę.
-Po finale pojawia się oryginalna plansza z Kubusiem, robotami i opowieścią o powrocie do naszych czasów.
-Szczegóły techniczne: [`tools/w3d_eksport/README.md`](tools/w3d_eksport/README.md).
+zagrać we wszystkie 11 poziomów bez instalowania czegokolwiek.
 
 ### Instalator (polecany)
 
